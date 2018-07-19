@@ -1,7 +1,7 @@
 CVRA 3 Phases Controller
 ========================
 
-Features:
+Requirements:
 ---------
  
 - 3 phases  ( BLDC, DC motor, Load )
