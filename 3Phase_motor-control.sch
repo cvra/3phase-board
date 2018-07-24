@@ -1,0 +1,427 @@
+EESchema Schematic File Version 4
+LIBS:3phase-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	5375 3995 5275 3995
+Wire Wire Line
+	5375 3695 5275 3695
+Wire Wire Line
+	5375 3895 5275 3895
+Wire Wire Line
+	5375 3795 5275 3795
+Wire Wire Line
+	5375 3395 5275 3395
+Wire Wire Line
+	5375 3495 5275 3495
+Wire Wire Line
+	5375 3595 5275 3595
+Wire Wire Line
+	5375 4495 5275 4495
+Wire Wire Line
+	5275 3295 5375 3295
+Wire Wire Line
+	5275 4295 5375 4295
+Wire Wire Line
+	5275 4395 5375 4395
+Wire Wire Line
+	5375 2995 5275 2995
+Wire Wire Line
+	5375 3095 5275 3095
+Wire Wire Line
+	5375 3195 5275 3195
+$Comp
+L power:GND #PWR020
+U 1 1 5B62D800
+P 4775 4820
+F 0 "#PWR020" H 4775 4570 50  0001 C CNN
+F 1 "GND" H 4780 4647 50  0000 C CNN
+F 2 "" H 4775 4820 50  0001 C CNN
+F 3 "" H 4775 4820 50  0001 C CNN
+	1    4775 4820
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4675 4695 4675 4765
+Wire Wire Line
+	4675 4765 4775 4765
+Wire Wire Line
+	4775 4765 4775 4695
+Wire Wire Line
+	4875 4695 4875 4765
+Wire Wire Line
+	4875 4765 4775 4765
+Connection ~ 4775 4765
+Wire Wire Line
+	4775 4820 4775 4770
+$Comp
+L Device:C C8
+U 1 1 5B62D80D
+P 3205 2225
+F 0 "C8" H 3205 2325 40  0000 L CNN
+F 1 "100nF" H 3211 2140 40  0000 L CNN
+F 2 "~" H 3243 2075 30  0000 C CNN
+F 3 "~" H 3205 2225 60  0000 C CNN
+	1    3205 2225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C9
+U 1 1 5B62D814
+P 3595 2225
+F 0 "C9" H 3595 2325 40  0000 L CNN
+F 1 "100nF" H 3601 2140 40  0000 L CNN
+F 2 "~" H 3633 2075 30  0000 C CNN
+F 3 "~" H 3595 2225 60  0000 C CNN
+	1    3595 2225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4775 2795 4775 1980
+$Comp
+L power:GND #PWR019
+U 1 1 5B62D81E
+P 3595 2540
+F 0 "#PWR019" H 3595 2290 50  0001 C CNN
+F 1 "GND" H 3600 2367 50  0000 C CNN
+F 2 "" H 3595 2540 50  0001 C CNN
+F 3 "" H 3595 2540 50  0001 C CNN
+	1    3595 2540
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3595 2375 3595 2455
+Wire Wire Line
+	3205 2375 3205 2455
+Wire Wire Line
+	3205 1980 3595 1980
+Wire Wire Line
+	3595 2075 3595 1980
+Connection ~ 3595 1980
+Wire Wire Line
+	3205 2075 3205 1980
+Wire Wire Line
+	3205 1980 3205 1780
+Connection ~ 3205 1980
+$Comp
+L power:+3.3V #PWR018
+U 1 1 5B62D82D
+P 3205 1780
+F 0 "#PWR018" H 3205 1630 50  0001 C CNN
+F 1 "+3.3V" H 3220 1953 50  0000 C CNN
+F 2 "" H 3205 1780 50  0001 C CNN
+F 3 "" H 3205 1780 50  0001 C CNN
+	1    3205 1780
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C10
+U 1 1 5B62D833
+P 3960 2225
+F 0 "C10" H 3960 2325 40  0000 L CNN
+F 1 "4.7uF" H 3966 2140 40  0000 L CNN
+F 2 "~" H 3998 2075 30  0000 C CNN
+F 3 "~" H 3960 2225 60  0000 C CNN
+	1    3960 2225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3960 2375 3960 2455
+Wire Wire Line
+	3960 2455 3595 2455
+Connection ~ 3595 2455
+Wire Wire Line
+	3960 2075 3960 1980
+Wire Wire Line
+	3595 1980 3960 1980
+Connection ~ 3960 1980
+Wire Wire Line
+	3205 2455 3595 2455
+Wire Wire Line
+	3595 2455 3595 2540
+Wire Wire Line
+	4875 2795 4875 1980
+Wire Wire Line
+	4875 1980 5895 1980
+$Comp
+L Device:C C11
+U 1 1 5B62D845
+P 5895 2225
+F 0 "C11" H 5895 2325 40  0000 L CNN
+F 1 "10nF" H 5901 2140 40  0000 L CNN
+F 2 "~" H 5933 2075 30  0000 C CNN
+F 3 "~" H 5895 2225 60  0000 C CNN
+	1    5895 2225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C12
+U 1 1 5B62D84C
+P 6285 2225
+F 0 "C12" H 6285 2325 40  0000 L CNN
+F 1 "1uF" H 6291 2140 40  0000 L CNN
+F 2 "~" H 6323 2075 30  0000 C CNN
+F 3 "~" H 6285 2225 60  0000 C CNN
+	1    6285 2225
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR022
+U 1 1 5B62D853
+P 6285 2540
+F 0 "#PWR022" H 6285 2290 50  0001 C CNN
+F 1 "GND" H 6290 2367 50  0000 C CNN
+F 2 "" H 6285 2540 50  0001 C CNN
+F 3 "" H 6285 2540 50  0001 C CNN
+	1    6285 2540
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6285 2375 6285 2455
+Wire Wire Line
+	5895 2375 5895 2455
+Wire Wire Line
+	5895 1980 6285 1980
+Wire Wire Line
+	6285 2075 6285 1980
+Wire Wire Line
+	5895 2075 5895 1980
+Wire Wire Line
+	6285 1980 6285 1780
+Connection ~ 5895 1980
+Wire Wire Line
+	5895 2455 6285 2455
+Wire Wire Line
+	6285 2455 6285 2540
+Connection ~ 6285 1980
+$Comp
+L power:+3.3V #PWR021
+U 1 1 5B62D864
+P 6285 1780
+F 0 "#PWR021" H 6285 1630 50  0001 C CNN
+F 1 "+3.3V" H 6300 1953 50  0000 C CNN
+F 2 "" H 6285 1780 50  0001 C CNN
+F 3 "" H 6285 1780 50  0001 C CNN
+	1    6285 1780
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5B657DDB
+P 7295 4795
+AR Path="/5B657DDB" Ref="#PWR?"  Part="1" 
+AR Path="/5B581FCA/5B657DDB" Ref="#PWR027"  Part="1" 
+F 0 "#PWR027" H 7295 4795 30  0001 C CNN
+F 1 "GND" H 7295 4725 30  0001 C CNN
+F 2 "" H 7295 4795 60  0000 C CNN
+F 3 "" H 7295 4795 60  0000 C CNN
+	1    7295 4795
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5B657DE1
+P 8245 3745
+AR Path="/5B657DE1" Ref="C?"  Part="1" 
+AR Path="/5B581FCA/5B657DE1" Ref="C13"  Part="1" 
+F 0 "C13" V 8195 3795 40  0000 L CNN
+F 1 "0.1uF" V 8395 3695 40  0000 L CNN
+F 2 "~" H 8283 3595 30  0000 C CNN
+F 3 "~" H 8245 3745 60  0000 C CNN
+	1    8245 3745
+	0    1    1    0   
+$EndComp
+$Comp
+L Interface_CAN_LIN:LTC2875-DD U?
+U 1 1 5B657DE8
+P 7895 4295
+AR Path="/5B657DE8" Ref="U?"  Part="1" 
+AR Path="/5B581FCA/5B657DE8" Ref="U4"  Part="1" 
+F 0 "U4" H 7545 4645 50  0000 C CNN
+F 1 "LTC2875-DD" H 8195 3945 50  0000 C CNN
+F 2 "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.5mm_EP1.66x2.38mm" H 7895 3795 50  0001 C CIN
+F 3 "http://cds.linear.com/docs/en/datasheet/2875f.pdf" H 7895 4295 50  0001 C CNN
+	1    7895 4295
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8395 4295
+Wire Wire Line
+	7895 4695 7895 4745
+Wire Wire Line
+	7295 4745 7295 4795
+Wire Wire Line
+	7795 4745 7795 4695
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5B657DF3
+P 7895 3595
+AR Path="/5B657DF3" Ref="#PWR?"  Part="1" 
+AR Path="/5B581FCA/5B657DF3" Ref="#PWR028"  Part="1" 
+F 0 "#PWR028" H 7895 3555 30  0001 C CNN
+F 1 "+3.3V" H 7895 3745 30  0000 C CNN
+F 2 "" H 7895 3595 60  0001 C CNN
+F 3 "" H 7895 3595 60  0001 C CNN
+	1    7895 3595
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7795 4745 7295 4745
+Wire Wire Line
+	7295 4745 7295 4495
+Wire Wire Line
+	7295 4495 7395 4495
+Connection ~ 7795 4745
+Connection ~ 7295 4745
+Wire Wire Line
+	8395 3745 8595 3745
+Wire Wire Line
+	7895 3595 7895 3745
+Wire Wire Line
+	8095 3745 7895 3745
+Connection ~ 7895 3745
+Wire Wire Line
+	7895 3745 7895 3895
+Wire Wire Line
+	8595 3745 8595 3845
+Wire Wire Line
+	7795 4745 7895 4745
+$Comp
+L power:GND #PWR?
+U 1 1 5B657E27
+P 8595 3845
+AR Path="/5B657E27" Ref="#PWR?"  Part="1" 
+AR Path="/5B581FCA/5B657E27" Ref="#PWR029"  Part="1" 
+F 0 "#PWR029" H 8595 3845 30  0001 C CNN
+F 1 "GND" H 8595 3775 30  0001 C CNN
+F 2 "" H 8595 3845 60  0000 C CNN
+F 3 "" H 8595 3845 60  0000 C CNN
+	1    8595 3845
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8395 4195 8700 4195
+$Comp
+L logo:CVRA_logo #G2
+U 1 1 5B5FAE00
+P 7900 6830
+F 0 "#G2" H 7900 6662 60  0001 C CNN
+F 1 "CVRA_logo" H 7900 6998 60  0001 C CNN
+F 2 "" H 7900 6830 50  0001 C CNN
+F 3 "" H 7900 6830 50  0001 C CNN
+	1    7900 6830
+	1    0    0    -1  
+$EndComp
+Text HLabel 8700 4195 2    50   Input ~ 0
+CANH
+Text HLabel 8700 4395 2    50   Input ~ 0
+CANL
+Wire Wire Line
+	8395 4395 8700 4395
+$Comp
+L MCU_ST_STM32L4:STM32L432KCUx U3
+U 1 1 5B62D7C3
+P 4775 3695
+F 0 "U3" H 4415 4545 50  0000 C CNN
+F 1 "STM32L432KCU" H 5205 4555 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm" H 4375 2795 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257205.pdf" H 4775 3695 50  0001 C CNN
+	1    4775 3695
+	1    0    0    -1  
+$EndComp
+Text HLabel 5375 3695 2    50   Input ~ 0
+INLA
+Text HLabel 5375 3795 2    50   Input ~ 0
+INHC
+Text HLabel 5375 3895 2    50   Input ~ 0
+INHB
+Text HLabel 5375 3995 2    50   Input ~ 0
+INHA
+Text HLabel 5375 4295 2    50   Input ~ 0
+SWDIO
+Text HLabel 5375 4395 2    50   Input ~ 0
+SWCLK
+Text HLabel 5375 4495 2    50   Input ~ 0
+nSCS
+Text HLabel 5375 3595 2    50   Input ~ 0
+SOA
+Text HLabel 5375 3495 2    50   Input ~ 0
+SOB
+Text HLabel 5375 3395 2    50   Input ~ 0
+SOC
+Text HLabel 5375 3295 2    50   Input ~ 0
+ADC/V_BAT
+Text HLabel 5375 3195 2    50   Input ~ 0
+ENCODER_I
+Text HLabel 5375 3095 2    50   Input ~ 0
+ENCODER_B
+Text HLabel 5375 2995 2    50   Input ~ 0
+ENCODER_A
+Text HLabel 4175 3395 0    50   Input ~ 0
+HALL_C
+Text HLabel 4175 3595 0    50   Input ~ 0
+HALL_B
+Text HLabel 4175 3695 0    50   Input ~ 0
+HALL_A
+Text HLabel 4175 3895 0    50   Input ~ 0
+INLB
+Text HLabel 4175 3995 0    50   Input ~ 0
+INLC
+Text HLabel 4175 4095 0    50   Input ~ 0
+SCLK
+Text HLabel 4175 4195 0    50   Input ~ 0
+SDO
+Text HLabel 4175 4295 0    50   Input ~ 0
+SDI
+Text HLabel 4180 4395 0    50   Input ~ 0
+TX
+Text HLabel 4180 4495 0    50   Input ~ 0
+RX
+Text HLabel 4175 2995 0    50   Input ~ 0
+RESET
+Wire Wire Line
+	4275 2995 4175 2995
+Wire Wire Line
+	4275 3395 4175 3395
+Wire Wire Line
+	4275 3595 4175 3595
+Wire Wire Line
+	4275 3695 4175 3695
+Wire Wire Line
+	4275 3895 4175 3895
+Wire Wire Line
+	4275 3995 4175 3995
+Wire Wire Line
+	4275 4095 4175 4095
+Wire Wire Line
+	4275 4195 4175 4195
+Wire Wire Line
+	4275 4295 4175 4295
+Wire Wire Line
+	4275 4395 4175 4395
+Wire Wire Line
+	4275 4495 4175 4495
+Wire Wire Line
+	5275 4095 7395 4095
+Wire Wire Line
+	5275 4195 7395 4195
+Connection ~ 6285 2455
+Wire Wire Line
+	4675 1980 4675 2795
+Wire Wire Line
+	3960 1980 4675 1980
+Wire Wire Line
+	4775 1980 4675 1980
+Connection ~ 4675 1980
+$EndSCHEMATC
