@@ -384,9 +384,9 @@ Text HLabel 4175 4195 0    50   Input ~ 0
 SDO
 Text HLabel 4175 4295 0    50   Input ~ 0
 SDI
-Text HLabel 4180 4395 0    50   Input ~ 0
+Text HLabel 4175 4395 0    50   Input ~ 0
 TX
-Text HLabel 4180 4495 0    50   Input ~ 0
+Text HLabel 4175 4495 0    50   Input ~ 0
 RX
 Text HLabel 4175 2995 0    50   Input ~ 0
 RESET
