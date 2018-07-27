@@ -716,4 +716,9 @@ F 3 "~" H 4585 4510 50  0001 C CNN
 $EndComp
 Connection ~ 4685 4510
 Connection ~ 4035 4410
+Wire Wire Line
+	6905 1860 7005 1860
+Connection ~ 7005 1860
+Wire Wire Line
+	7105 1860 7005 1860
 $EndSCHEMATC
